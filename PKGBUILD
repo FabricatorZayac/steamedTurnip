@@ -8,7 +8,7 @@ arch=('any')
 url="https://github.com/Zayac-The-Engineer/${pkgname}"
 license=('GPL')
 depends=()
-makedepends=('git' 'cmake')
+makedepends=('git' 'make')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/Zayac-The-Engineer/${pkgname}/archive/${pkgver}.tar.gz")
 md5sums=('SKIP')
 
