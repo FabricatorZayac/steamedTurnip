@@ -1,3 +1,5 @@
+install: all
+	sudo cp turnip /bin/turnip
 all: turnip.o
 	gcc turnip.o -o turnip
 turnip.o:
